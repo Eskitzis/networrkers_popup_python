@@ -38,7 +38,7 @@ def my_time():
     l1.after(1000, my_time)
 
 
-l1 = Label(window, font=('times', 26, 'bold'), foreground="red3")
+l1 = Label(window, font=('times', 25, 'bold'), foreground="red3")
 l1.place(relx=1, rely=0, x=-38, y=65, anchor='ne')
 
 
